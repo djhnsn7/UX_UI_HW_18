@@ -136,7 +136,7 @@ footer {
     padding: 20px 0;
 }
 
-.card {
+.card1 {
     flex: 0 0 25%;
     box-sizing: border-box;
     margin: 0 10px;
@@ -150,10 +150,11 @@ footer {
     white-space: normal;
     position: relative;
     width: 400px;
-    height: 500px;
+    height:500px;
+    background-image: url(/1.png);
 }
 
-#cs1 {
+.card2 {
     flex: 0 0 25%;
     box-sizing: border-box;
     margin: 0 10px;
@@ -167,8 +168,46 @@ footer {
     white-space: normal;
     position: relative;
     width: 400px;
-    height: 500px;
+    height:500px;
+    background-image: url(/3.png);
 }
+
+.card3 {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    position: relative;
+    width: 400px;
+    height:500px;
+    background-image: url(/4.png);
+}
+
+.card4 {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    position: relative;
+    width: 400px;
+    height:500px;
+    background-image: url(/5.png);
+}
+
 .card h3 {
     margin: 0;
     font-size: 24px;
