@@ -1,31 +1,33 @@
 body {
     background-color: #f2f1f0;
 }
-.container{
-    display:flex;
+
+.container {
+    display: flex;
     height: 5vh;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     width: 23%;
     padding: 1%;
-
 }
+
 .navbar {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     padding: 1%;
     margin: 0;
-    font-family: Helvetica, Arial,  sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
-
 }
+
 .navbar li {
-    margin:0 20px;
-
+    margin: 0 20px;
 }
+
 .navbar a {
     color: #61638c;
     text-decoration: none;
@@ -33,24 +35,22 @@ body {
 }
 
 .navbar a:hover {
-color: #f25116;
+    color: #f25116;
 }
 
 footer {
     background-color: #f25116;
-    display:flex;
+    display: flex;
     height: 5vh;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .footer-left {
-padding: 1%;
+    padding: 1%;
 }
 
-.footer-middle {
-
-}
+.footer-middle {}
 
 .footer-middle button {
     border: none;
@@ -65,21 +65,147 @@ padding: 1%;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
-    .icon {
-        filter: invert(100%) brightness(2);
-      }
-      
+.icon {
+    filter: invert(100%) brightness(2);
+}
 
 .HeroImg {
     height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  border-radius: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 100px;
 }
 
+.mySkills {
+    padding: 20px;
+    text-align: center; /* Center the h1 title */
+}
+
+.mySkills h1 {
+    font-family: 'Helvetica Neue', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: bold; /* Bold */
+    color: #61638C; /* Text color */
+    margin: 0 auto 20px auto; /* Center the heading and add margin at the bottom */
+    display: inline-block; /* Allow the heading to center horizontally with the scrollable section */
+}
+
+.flexContainer {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Space between the pills */
+    padding: 10px 0;
+    justify-content: center; /* Center the skill pills */
+    align-items: center; /* Center items vertically */
+}
+
+.skillPill {
+    border: 2px solid #61638C; /* Pill outline color */
+    border-radius: 50px; /* Rounded pill shape */
+    padding: 10px 20px; /* Space inside the pill */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    white-space: nowrap; /* Prevent text from wrapping */
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+    min-width: 150px; /* Minimum width to ensure consistency */
+    height: 40px; /* Fixed height for consistent pill shape */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.skillPill h3 {
+    font-family: 'Helvetica Neue', sans-serif; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold */
+    font-style: italic; /* Italic */
+    margin: 0; /* Remove default margin */
+    color: #61638C; /* Text color */
+}
+
+.skillPill:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+    transform: scale(1.1); /* Inflate the pill */
+}
+.scroll-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.card {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+#cs1 {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:nth-child(1) {
+    background-image: url('image1.jpg');
+}
+
+.card:nth-child(2) {
+    background-image: url('image2.jpg');
+}
+
+.card:nth-child(3) {
+    background-image: url('image3.jpg');
+}
+
+.card:nth-child(4) {
+    background-image: url('image4.jpg');
+}
 .responsive {
     width: 100%;
-    height: auto;}
+    height: auto;
+}
