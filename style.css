@@ -208,6 +208,24 @@ footer {
     background-image: url(/4.png);
 }
 
+.card5 {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    white-space: normal;
+    position: relative;
+    width: 400px;
+    height:500px;
+    background-image: url(/5.png);
+}
+
 .card h3 {
     margin: 0;
     font-size: 24px;
@@ -244,7 +262,30 @@ footer {
 .card:nth-child(4) {
     background-image: url('image4.jpg');
 }
+
+.card:nth-child(5) {
+    background-image: url('image5.jpg');
+}
 .responsive {
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    .scroll-container {
+        width: 100%;       /* Set the width to match the viewport */
+        height: auto;      /* Adjust height to fit the content if needed */
+        overflow-x: hidden; /* Hide overflow content off-screen */
+        white-space: nowrap; /* Prevent line breaks inside the container */
+        display: flex;      /* Use flex layout to arrange child elements */
+        flex-wrap: nowrap;  /* Prevent flex items from wrapping to the next line */
+        position: relative; /* Set position relative for managing overflow content */
+        margin: 0 auto;     /* Center the container horizontally */
+    }
+    .scroll-container > div {
+        width: 1000px;    /* Maintain the width of child elements */
+        height: 1000px;   /* Maintain the height of child elements */
+        /* flex-shrink: 0;   Prevent the child elements from shrinking */
+        overflow: hidden; /* Ensure no internal overflow */
+    }
 }
