@@ -1,6 +1,52 @@
 body {
     background-color: #f2f1f0;
-}
+        font-family: 'Helvetica Neue', Arial, sans-serif; /* Base font family */
+        color: #333; /* Default text color */
+    }
+    
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #55567F; /* Adjusted color for H1 */
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        color: #E39363; /* Adjusted color for H2 */
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        color: #55567F; /* Adjusted color for H3 */
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-weight: normal;
+        font-style: italic;
+        color: #E39363; /* Adjusted color for H4 */
+    }
+    
+    p {
+        font-size: 18px;
+        font-weight: 300; /* Light font weight */
+        color: #000000; /* Adjusted color for body text */
+    }
+    
+    a {
+        font-size: 18px;
+        font-weight: 300; /* Light font weight */
+        color: #3182ce; /* Blue color for links */
+        text-decoration: none; /* No underline */
+    }
+    
+    a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+    
 
 .container {
     display: flex;
@@ -17,7 +63,8 @@ body {
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: flex-end;
     padding: 1%;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -25,7 +72,7 @@ body {
 }
 
 .navbar li {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .navbar a {
@@ -69,13 +116,51 @@ footer {
     filter: invert(100%) brightness(2);
 }
 
-.HeroImg {
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero-container {
     position: relative;
-    border-radius: 100px;
+    width: 100%;
+    max-width: 100%; /* Ensure the container scales with the image */
+   
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+   
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.5); Optional: dark background for text contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 80%; /* Adjust width as needed */
+}
+
+.hero-text h1 {
+    font-size: 5em;
+    margin: 0 0 10px 0;
+    color: #ffffff
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin: 0;
+    color: #ffffff
+;
 }
 
 .mySkills {
@@ -243,5 +328,41 @@ footer {
     .card1, .card2, .card3, .card4, .card5 {
         width: 100%;
         height: 400px; /* Adjust height if necessary */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 2em; /* Smaller font size on smaller screens */
+        margin-bottom: 0.5em;
+    }
+
+    .hero-text p {
+        font-size: 1em; /* Smaller font size on smaller screens */
+        line-height: 1.4em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text {
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 1.5em; /* Even smaller font size on extra small screens */
+        margin-bottom: 0.3em;
+    }
+
+    .hero-text p {
+        font-size: 0.9em; /* Even smaller font size on extra small screens */
+        line-height: 1.3em;
     }
 }
