@@ -1,52 +1,50 @@
 body {
     background-color: #f2f1f0;
-        font-family: 'Helvetica Neue', Arial, sans-serif; /* Base font family */
-        color: #333; /* Default text color */
-    }
-    
-    h1 {
-        font-size: 32px;
-        font-weight: bold;
-        color: #55567F; /* Adjusted color for H1 */
-    }
-    
-    h2 {
-        font-size: 24px;
-        font-weight: normal;
-        color: #E39363; /* Adjusted color for H2 */
-    }
-    
-    h3 {
-        font-size: 20px;
-        font-weight: bold;
-        font-style: italic;
-        color: #55567F; /* Adjusted color for H3 */
-    }
-    
-    h4 {
-        font-size: 20px;
-        font-weight: normal;
-        font-style: italic;
-        color: #E39363; /* Adjusted color for H4 */
-    }
-    
-    p {
-        font-size: 18px;
-        font-weight: 300; /* Light font weight */
-        color: #000000; /* Adjusted color for body text */
-    }
-    
-    a {
-        font-size: 18px;
-        font-weight: 300; /* Light font weight */
-        color: #3182ce; /* Blue color for links */
-        text-decoration: none; /* No underline */
-    }
-    
-    a:hover {
-        text-decoration: underline; /* Underline on hover */
-    }
-    
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    color: #333; 
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #55567F; 
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #E39363; 
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #55567F; 
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    color: #E39363; 
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300; 
+}
+
+a {
+    font-size: 18px;
+    font-weight: 300; 
+    color: #3182ce; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
 
 .container {
     display: flex;
@@ -69,6 +67,7 @@ body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
+    
 }
 
 .navbar li {
@@ -120,8 +119,7 @@ footer {
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 100%; /* Ensure the container scales with the image */
-   
+    max-width: 100%;
 }
 
 .hero-container img {
@@ -132,11 +130,7 @@ footer {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-   
-   
-   
 }
-
 
 .hero-text {
     position: absolute;
@@ -145,89 +139,90 @@ footer {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    /* background: rgba(0, 0, 0, 0.5); Optional: dark background for text contrast */
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    width: 80%; /* Adjust width as needed */
+    width: 80%; 
 }
 
 .hero-text h1 {
     font-size: 5em;
     margin: 0 0 10px 0;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .hero-text p {
     font-size: 1.5em;
     margin: 0;
-    color: #ffffff
-;
+    color: #ffffff;
 }
 
 .mySkills {
     padding: 20px;
-    text-align: center; /* Center the h1 title */
+    text-align: center; 
 }
 
 .mySkills h1 {
-    font-family: 'Helvetica Neue', sans-serif; /* Font family */
-    font-size: 32px; /* Font size */
-    font-weight: bold; /* Bold */
-    color: #61638C; /* Text color */
-    margin: 0 auto 20px auto; /* Center the heading and add margin at the bottom */
-    display: inline-block; /* Allow the heading to center horizontally with the scrollable section */
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #61638C; 
+    margin: 0 auto 20px auto; 
+    display: inline-block;
 }
 
 .flexContainer {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    gap: 10px; /* Space between the pills */
+    overflow-x: auto; 
+    gap: 10px; 
     padding: 10px 0;
-    justify-content: center; /* Center the skill pills */
-    align-items: center; /* Center items vertically */
+    justify-content: center;
+    align-items: center; 
 }
 
 .skillPill {
-    border: 2px solid #61638C; /* Pill outline color */
-    border-radius: 50px; /* Rounded pill shape */
-    padding: 10px 20px; /* Space inside the pill */
+    border: 2px solid #61638C; 
+    border-radius: 50px;
+    padding: 10px 20px; 
     display: flex;
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally */
-    white-space: nowrap; /* Prevent text from wrapping */
+    align-items: center; 
+    justify-content: center; 
+    white-space: nowrap;
     flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
-    min-width: 150px; /* Minimum width to ensure consistency */
-    height: 40px; /* Fixed height for consistent pill shape */
-    transition: all 0.3s ease; /* Smooth transition for all properties */
+    min-width: 150px; 
+    height: 40px; 
+    transition: all 0.3s ease; 
 }
 
 .skillPill h3 {
-    font-family: 'Helvetica Neue', sans-serif; /* Font family */
-    font-size: 20px; /* Font size */
-    font-weight: bold; /* Bold */
-    font-style: italic; /* Italic */
-    margin: 0; /* Remove default margin */
-    color: #61638C; /* Text color */
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    font-style: italic; 
+    margin: 0; 
+    color: #61638C; 
 }
 
 .skillPill:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
-    transform: scale(1.1); /* Inflate the pill */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.1); 
 }
+
 .scroll-container {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+    justify-content: center;
     overflow: hidden;
     overflow-x: auto;
     white-space: nowrap;
-    padding: 20px 0;
-    gap: 20px; /* Adds space between grid items */
+    padding: 10px 0;
+    gap: 20px; 
     scroll-snap-type: x mandatory;
 }
-scroll-container::-webkit-scrollbar {
-    display: none; /* Optional: Hides the scrollbar */
+
+.scroll-container::-webkit-scrollbar {
+    display: none; 
 }
 
 .card1, .card2, .card3, .card4, .card5 {
@@ -248,28 +243,25 @@ scroll-container::-webkit-scrollbar {
     height: 500px;
     scroll-snap-align: start;
 }
-.card1 {
-    background-image: url(/CaseStudyIMG/1.png);
 
+.card1 {
+    background-image: url('/CaseStudyIMG/1.png');
 }
 
 .card2 {
-    background-image: url(/CaseStudyIMG/2.png);
+    background-image: url('/CaseStudyIMG/2.png');
 }
 
 .card3 {
-    background-image: url(/CaseStudyIMG/3.png);
-    o
+    background-image: url('/CaseStudyIMG/3.png');
 }
 
 .card4 {
-    background-image: url(/CaseStudyIMG/4.png);
-    
+    background-image: url('/CaseStudyIMG/4.png');
 }
 
 .card5 {
-    background-image: url(/CaseStudyIMG/5.png);
-   
+    background-image: url('/CaseStudyIMG/5.png');
 }
 
 .card h3 {
@@ -312,35 +304,27 @@ scroll-container::-webkit-scrollbar {
 .card:nth-child(5) {
     background-image: url('image5.jpg');
 }
-.responsive {
+
+/* .responsive {
     width: 100%;
     height: auto;
-}
+} */
 
-@media (max-width: 1200px) {
-    .scroll-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        overflow: visible; /* Makes the grid fully visible */
-    }
 
+@media (max-width: 480px) {
     .card1, .card2, .card3, .card4, .card5 {
-        width: 500px;
-        flex: 1 1 auto; /* Allows cards to resize based on grid */
-        height: 450px; /* Adjust height if necessary */
+        width: 100%; 
+        max-width: 400px; 
+        height: 500px; 
+        box-sizing: border-box;
     }
-}
 
-@media (max-width: 768px) {
     .scroll-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        overflow-x: hidden;
         gap: 20px;
-    }
-
-    .card1, .card2, .card3, .card4, .card5 {
-        width: 100%;
-        height: 400px; /* Adjust height if necessary */
     }
 }
 
@@ -352,12 +336,12 @@ scroll-container::-webkit-scrollbar {
     }
 
     .hero-text h1 {
-        font-size: 2em; /* Smaller font size on smaller screens */
+        font-size: 2em; 
         margin-bottom: 0.5em;
     }
 
     .hero-text p {
-        font-size: 1em; /* Smaller font size on smaller screens */
+        font-size: 1em; 
         line-height: 1.4em;
     }
 }
@@ -370,12 +354,33 @@ scroll-container::-webkit-scrollbar {
     }
 
     .hero-text h1 {
-        font-size: 1.5em; /* Even smaller font size on extra small screens */
+        font-size: 1.5em; 
         margin-bottom: 0.3em;
     }
 
     .hero-text p {
-        font-size: 0.9em; /* Even smaller font size on extra small screens */
+        font-size: 0.9em;
         line-height: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 768px), 
+       only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .heroImg {
+        background-image: url('/heroImg/heroImg2x.png'); /* 2x resolution image */
+    }
+}
+
+@media only screen and (max-width: 1280px), 
+       only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .heroImg {
+        background-image: url('/heroImg/heroImg3x.png'); /* 3x resolution image */
+    }
+}
+
+@media only screen and (max-width: 480px), 
+       only screen and (-webkit-max-device-pixel-ratio: 1) {
+    .heroImg {
+        background-image: url('/heroImg/heroImg.png'); /* Standard resolution image */
     }
 }
