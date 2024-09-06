@@ -245,23 +245,23 @@ footer {
 }
 
 .card1 {
-    background-image: url('/images/1.png');
+    background-image: url('images/1.png');
 }
 
 .card2 {
-    background-image: url('/images/2.png');
+    background-image: url('images/2.png');
 }
 
 .card3 {
-    background-image: url('/images/3.png');
+    background-image: url('images/3.png');
 }
 
 .card4 {
-    background-image: url('/images/4.png');
+    background-image: url('images/4.png');
 }
 
 .card5 {
-    background-image: url('/images/5.png');
+    background-image: url('images/5.png');
 }
 
 .card h3 {
@@ -367,19 +367,19 @@ footer {
 @media only screen and (max-width: 768px), 
        only screen and (-webkit-min-device-pixel-ratio: 2) {
     .heroImg {
-        background-image: url('/images/heroImg2x.png'); 
+        background-image: url('images/heroImg2x.png'); 
     }
 }
 
 @media only screen and (max-width: 1280px), 
        only screen and (-webkit-min-device-pixel-ratio: 3) {
     .heroImg {
-        background-image: url('/images/heroImg3x.png'); 
+        background-image: url('images/heroImg3x.png'); 
 }
 
 @media only screen and (max-width: 480px), 
        only screen and (-webkit-max-device-pixel-ratio: 1) {
     .heroImg {
-        background-image: url('/images/heroImg1x.png'); 
+        background-image: url('images/heroImg1x.png'); 
     }
 }
