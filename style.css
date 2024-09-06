@@ -245,23 +245,23 @@ footer {
 }
 
 .card1 {
-    background-image: url('1.png');
+    background-image: url('/1.png');
 }
 
 .card2 {
-    background-image: url('2.png');
+    background-image: url('/2.png');
 }
 
 .card3 {
-    background-image: url('3.png');
+    background-image: url('/3.png');
 }
 
 .card4 {
-    background-image: url('4.png');
+    background-image: url('/4.png');
 }
 
 .card5 {
-    background-image: url('5.png');
+    background-image: url('/5.png');
 }
 
 .card h3 {
@@ -286,23 +286,23 @@ footer {
 }
 
 .card:nth-child(1) {
-    background-image: url('image1.jpg');
+    background-image: url('/image1.jpg');
 }
 
 .card:nth-child(2) {
-    background-image: url('image2.jpg');
+    background-image: url('/image2.jpg');
 }
 
 .card:nth-child(3) {
-    background-image: url('image3.jpg');
+    background-image: url('/image3.jpg');
 }
 
 .card:nth-child(4) {
-    background-image: url('image4.jpg');
+    background-image: url('/image4.jpg');
 }
 
 .card:nth-child(5) {
-    background-image: url('image5.jpg');
+    background-image: url('/image5.jpg');
 }
 
 /* .responsive {
@@ -367,19 +367,19 @@ footer {
 @media only screen and (max-width: 768px), 
        only screen and (-webkit-min-device-pixel-ratio: 2) {
     .heroImg {
-        background-image: url('heroImg2x.png'); 
+        background-image: url('/heroImg2x.png'); 
     }
 }
 
 @media only screen and (max-width: 1280px), 
        only screen and (-webkit-min-device-pixel-ratio: 3) {
     .heroImg {
-        background-image: url('heroImg3x.png'); 
+        background-image: url('/heroImg3x.png'); 
 }
 
 @media only screen and (max-width: 480px), 
        only screen and (-webkit-max-device-pixel-ratio: 1) {
     .heroImg {
-        background-image: url('heroImg.png'); 
+        background-image: url('/heroImg.png'); 
     }
 }
