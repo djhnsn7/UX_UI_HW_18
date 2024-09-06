@@ -367,20 +367,19 @@ footer {
 @media only screen and (max-width: 768px), 
        only screen and (-webkit-min-device-pixel-ratio: 2) {
     .heroImg {
-        background-image: url('/heroImg/heroImg2x.png'); /* 2x resolution image */
+        background-image: url('/heroImg/heroImg2x.png'); 
     }
 }
 
 @media only screen and (max-width: 1280px), 
        only screen and (-webkit-min-device-pixel-ratio: 3) {
     .heroImg {
-        background-image: url('/heroImg/heroImg3x.png'); /* 3x resolution image */
-    }
+        background-image: url('/heroImg/heroImg3x.png'); 
 }
 
 @media only screen and (max-width: 480px), 
        only screen and (-webkit-max-device-pixel-ratio: 1) {
     .heroImg {
-        background-image: url('/heroImg/heroImg.png'); /* Standard resolution image */
+        background-image: url('/heroImg/heroImg.png'); 
     }
 }
