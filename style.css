@@ -245,23 +245,23 @@ footer {
 }
 
 .card1 {
-    background-image: url(/1.png);
+    background-image: url(1.png);
 }
 
 .card2 {
-    background-image: url(/2.png);
+    background-image: url(2.png);
 }
 
 .card3 {
-    background-image: url(/3.png);
+    background-image: url(3.png);
 }
 
 .card4 {
-    background-image: url(/4.png);
+    background-image: url(4.png);
 }
 
 .card5 {
-    background-image: url(/5.png);
+    background-image: url(5.png);
 }
 
 .card h3 {
